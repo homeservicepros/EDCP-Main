@@ -1,0 +1,6 @@
+
+# Netlify SPA redirect fallback (backup to netlify.toml)
+/*    /index.html   200
+
+# Custom redirects (add your own below)
+# /old-page  /new-page  301

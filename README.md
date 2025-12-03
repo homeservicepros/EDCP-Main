@@ -73,6 +73,12 @@ A modern, responsive landing page for emergency drain cleaning services built wi
 ├── vite.config.ts      # Vite configuration
 ├── netlify.toml        # Netlify deployment configuration
 ├── tsconfig.json       # TypeScript configuration
+├── public/
+│   ├── robots.txt      # Search engine crawler instructions
+│   ├── sitemap.xml     # Main site sitemap
+│   ├── sitemap-index.xml # Sitemap index for all locations
+│   ├── favicon.svg     # Site favicon
+│   └── _redirects      # Netlify redirects
 └── src/
     ├── index.tsx       # Application entry point
     ├── App.tsx         # Main app component
@@ -81,6 +87,23 @@ A modern, responsive landing page for emergency drain cleaning services built wi
     │   └── persistence.ts
     └── components/     # All React components
 ```
+
+## 🤖 SEO & Robots
+
+### Robots.txt
+The site includes a comprehensive `robots.txt` file that:
+- Allows all search engine crawlers
+- References sitemap locations
+- Provides guidance for major search engines
+- No content restrictions
+
+### Sitemaps
+Two sitemap files are included:
+
+1. **sitemap.xml** - Main site structure with all sections
+2. **sitemap-index.xml** - Index of location-specific sitemaps
+
+Both are automatically referenced in `robots.txt` for search engine discovery.
 
 ## 🛠️ Local Development
 
@@ -131,7 +154,7 @@ After deployment on Netlify:
 - 📱 **Fully Responsive** - Perfect on all devices
 - 🚀 **Fast Performance** - Optimized build with code splitting
 - ♿ **Accessible** - WCAG compliant with semantic HTML
-- 🔍 **SEO Optimized** - Meta tags and structured data
+- 🔍 **SEO Optimized** - Meta tags, structured data, robots.txt, and sitemaps
 
 ## 🎯 Service Areas
 

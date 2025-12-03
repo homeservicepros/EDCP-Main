@@ -1,0 +1,60 @@
+
+# Emergency Drain Cleaning Pros - Robots.txt
+# We welcome all search engine crawlers to index our site
+
+# Allow all robots to access all content
+User-agent: *
+Allow: /
+
+# Crawl-delay: 0 means no delay (crawl as fast as you want)
+Crawl-delay: 0
+
+# Sitemap locations
+# Main sitemap index containing all location-specific sitemaps
+Sitemap: https://emergencydraincleaningpros.com/sitemap-index.xml
+
+# Main site sitemap
+Sitemap: https://emergencydraincleaningpros.com/sitemap.xml
+
+# Additional guidance for crawlers:
+# - All pages are accessible and should be indexed
+# - No content restrictions
+# - JavaScript rendering is required for full content access
+# - All assets in /assets/ directory are safe to crawl
+
+# No disallowed paths - everything is open for indexing
+# Disallow:
+
+# Special instructions for major search engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+User-agent: YandexBot
+Allow: /
+
+# Note: This is a Single Page Application (SPA)
+# Main navigation sections are accessible via:
+# - / (home)
+# - /#services
+# - /#about
+# - /#features
+# - /#process
+# - /#locations
+# - /#testimonials
+# - /#faq
+# - /#contact

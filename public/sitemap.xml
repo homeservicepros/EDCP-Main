@@ -1,0 +1,150 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  
+  <!-- Main Landing Page -->
+  <url>
+    <loc>https://emergencydraincleaningpros.com/</loc>
+    <lastmod>2025-12-04T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Services Section -->
+  <url>
+    <loc>https://emergencydraincleaningpros.com/#services</loc>
+    <lastmod>2025-12-04T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- About Section -->
+  <url>
+    <loc>https://emergencydraincleaningpros.com/#about</loc>
+    <lastmod>2025-12-04T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Features Section -->
+  <url>
+    <loc>https://emergencydraincleaningpros.com/#features</loc>
+    <lastmod>2025-12-04T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Process Section -->
+  <url>
+    <loc>https://emergencydraincleaningpros.com/#process</loc>
+    <lastmod>2025-12-04T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Service Locations -->
+  <url>
+    <loc>https://emergencydraincleaningpros.com/#locations</loc>
+    <lastmod>2025-12-04T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Testimonials Section -->
+  <url>
+    <loc>https://emergencydraincleaningpros.com/#testimonials</loc>
+    <lastmod>2025-12-04T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- FAQ Section -->
+  <url>
+    <loc>https://emergencydraincleaningpros.com/#faq</loc>
+    <lastmod>2025-12-04T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Contact Section -->
+  <url>
+    <loc>https://emergencydraincleaningpros.com/#contact</loc>
+    <lastmod>2025-12-04T00:00:00+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Location-Specific Pages (External Links) -->
+  <url>
+    <loc>https://rocky-river-oh.emergencydraincleaningpros.com</loc>
+    <lastmod>2025-12-04T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://bay-village-oh.emergencydraincleaningpros.com</loc>
+    <lastmod>2025-12-04T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://avon-oh.emergencydraincleaningpros.com</loc>
+    <lastmod>2025-12-04T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://north-olmsted-oh.emergencydraincleaningpros.com</loc>
+    <lastmod>2025-12-04T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://west-park-oh.emergencydraincleaningpros.com</loc>
+    <lastmod>2025-12-04T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://fairview-park-oh.emergencydraincleaningpros.com</loc>
+    <lastmod>2025-12-04T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://miami-fl.emergencydraincleaningpros.com</loc>
+    <lastmod>2025-12-04T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://lakeland-fl.emergencydraincleaningpros.com</loc>
+    <lastmod>2025-12-04T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://marietta-ga.emergencydraincleaningpros.com</loc>
+    <lastmod>2025-12-04T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://rochester-ny.emergencydraincleaningpros.com</loc>
+    <lastmod>2025-12-04T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+</urlset>
