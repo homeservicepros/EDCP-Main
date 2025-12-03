@@ -1,0 +1,162 @@
+
+.locations-section {
+  padding: 100px 0;
+  position: relative;
+  z-index: 1;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.locations-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 25px;
+  margin-bottom: 60px;
+}
+
+.location-card {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.location-header {
+  display: flex;
+  gap: 15px;
+  align-items: start;
+}
+
+.location-icon {
+  font-size: 2rem;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--primary-gradient);
+  border-radius: 12px;
+  flex-shrink: 0;
+}
+
+.location-info {
+  flex: 1;
+}
+
+.location-name {
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+  color: var(--text-primary);
+}
+
+.location-phone {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--accent-color);
+  font-weight: 600;
+  font-size: 1.05rem;
+}
+
+.phone-icon {
+  font-size: 1rem;
+}
+
+.location-neighbors {
+  padding-top: 15px;
+  border-top: 1px solid var(--glass-border);
+}
+
+.neighbors-label {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.neighbors-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.neighbor-tag {
+  background: rgba(102, 126, 234, 0.15);
+  border: 1px solid rgba(102, 126, 234, 0.3);
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+}
+
+.location-actions {
+  display: flex;
+  gap: 10px;
+  padding-top: 15px;
+  border-top: 1px solid var(--glass-border);
+}
+
+.btn-small {
+  padding: 10px 18px;
+  font-size: 0.9rem;
+  flex: 1;
+  justify-content: center;
+}
+
+.locations-expansion {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.expansion-card {
+  padding: 40px;
+  text-align: center;
+}
+
+.expansion-icon {
+  font-size: 3rem;
+  margin-bottom: 15px;
+}
+
+.expansion-card h3 {
+  font-size: 1.6rem;
+  margin-bottom: 15px;
+  color: var(--text-primary);
+}
+
+.expansion-card p {
+  color: var(--text-secondary);
+  line-height: 1.7;
+  font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+  .locations-section {
+    padding: 60px 0;
+  }
+
+  .locations-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .location-card {
+    padding: 25px;
+  }
+
+  .location-name {
+    font-size: 1.25rem;
+  }
+
+  .location-actions {
+    flex-direction: column;
+  }
+
+  .btn-small {
+    width: 100%;
+  }
+
+  .expansion-card {
+    padding: 30px 20px;
+  }
+}
