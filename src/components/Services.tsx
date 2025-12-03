@@ -1,6 +1,4 @@
 
-
-import React from 'react';
 import './Services.css';
 
 function Services() {
@@ -168,4 +166,3 @@ function Services() {
 }
 
 export default Services;
-

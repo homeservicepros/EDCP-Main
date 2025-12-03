@@ -194,9 +194,9 @@ function Process() {
               key={index} 
               className="process-step-stack"
               style={{
-                '--step-index': index,
-                '--total-steps': steps.length
-              } as React.CSSProperties}
+                ['--step-index' as any]: index,
+                ['--total-steps' as any]: steps.length
+              }}
             >
               <div className="step-stack-card">
                 <div className="step-stack-header">

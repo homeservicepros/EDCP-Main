@@ -1,10 +1,9 @@
 
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import './FloatingCallButton.css';
 
 function FloatingCallButton() {
   const [isAvailable, setIsAvailable] = useState(false);
-  const [currentTime, setCurrentTime] = useState('');
 
   useEffect(() => {
     const checkAvailability = () => {
@@ -33,15 +32,6 @@ function FloatingCallButton() {
       }
 
       setIsAvailable(available);
-
-      // Format current time for display
-      const options: Intl.DateTimeFormatOptions = {
-        hour: 'numeric',
-        minute: '2-digit',
-        hour12: true,
-        timeZone: 'America/New_York'
-      };
-      setCurrentTime(now.toLocaleTimeString('en-US', options));
     };
 
     checkAvailability();
